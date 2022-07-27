@@ -7,13 +7,12 @@ function List() {
   const key = "b37aa290edaa204b9b97e59e2a1d23a9";
 
   useEffect(() => {
-    const getData = async () => {
+     (async () => {
       const res = await axios(
         `https://api.openweathermap.org/data/2.5/onecall?lat=${city.latitude}&lon=${city.longitude}&units=metric&exclude={part}&appid=${key}`
       );
       setWeather(res.data.daily);
-    };
-    getData();
+    })();
   }, [city, setWeather]);
   return (
     <div className="days">
