@@ -1,0 +1,12 @@
+input{
+    width: 98%;
+    height: 2rem;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+.srcd{
+    display: flex;
+    margin-bottom: 1rem;
+}
