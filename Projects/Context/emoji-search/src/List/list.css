@@ -1,0 +1,37 @@
+*{
+    font-size: 1rem;
+}
+.is,.it{
+    margin-left: 1rem;
+}
+.li{
+    display: flex;
+    height: 3rem;
+    line-height: 3rem;
+    border: 0.5px solid rgba(201, 179, 179,0.5);
+    border-right: 0;
+    justify-content: space-between;
+}
+.li:hover{
+    background-color: grey;
+}
+.cr{
+    font-size: 2rem;
+    margin-right: 4rem;
+    color:white
+}
+.li:active{
+    height: 4rem;
+    
+}
+.onay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 2.5rem;
+    margin-top: .8rem;
+    margin-right: .8rem;
+    background-color: rgb(187, 184, 184);
+    padding: .5rem;
+    border-radius: 5px;
+}
